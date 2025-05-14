@@ -1,0 +1,6 @@
+sudo pacman -S rofi zsh eza zoxide foot fzf fd waybar tree ttf-firacode-nerd
+
+
+cp -r .config ~/
+chmod +x rofi-power-menu
+sudo cp rofi-power-menu /usr/bin/
