@@ -33,7 +33,7 @@ window#waybar {
 }
 
 #workspaces button.urgent {
-  background-color: #eb4d4b;
+  color: #eb4d4b;
 }
 
 #mode {
@@ -126,12 +126,12 @@ label:focus {
 }
 
 #pulseaudio {
-/*  background-color: #000000;*/
+  /*  background-color: #000000;*/
   color: #ffffff;
 }
 
 #pulseaudio.muted {
-/*  background-color: #000000;*/
+  /*  background-color: #000000;*/
   color: #ffffff;
 }
 
