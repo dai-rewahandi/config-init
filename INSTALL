@@ -1,6 +1,9 @@
 sudo pacman -S rofi zsh eza zoxide foot fzf fd waybar tree ttf-firacode-nerd
-yay -S hyprshot eog
+# yay -S hyprshot eog
 
 cp -r .config ~/
 chmod +x rofi-power-menu
 sudo cp rofi-power-menu /usr/bin/
+
+cp .dairewahandi_zsh.conf ~/
+echo "source dairewahandi_zsh.conf" | tee -a ~/.zshrc
