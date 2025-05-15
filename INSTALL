@@ -1,12 +1,11 @@
-sudo pacman -S rofi zsh eza zoxide foot fzf fd waybar tree ttf-firacode-nerd hyprpaper noto-fonts noto-fonts-cjk noto-fonts-emoji unzip
-# yay -S hyprshot eog waypaper
+sudo pacman -S rofi zsh eza zoxide foot fzf fd waybar tree ttf-firacode-nerd hyprpaper noto-fonts noto-fonts-cjk noto-fonts-emoji unzip bat
+# yay -S hyprshot eog waypaper localsend-bin
 
 cp -r .config ~/
 chmod +x rofi-power-menu
 sudo cp rofi-power-menu /usr/bin/
 
 # curl -fsSL https://bun.sh/install | bash
-exec /bin/zsh 
 
-cp dairewahandi_zsh.conf ~/
-echo "source dairewahandi_zsh.conf" | tee -a ~/.zshrc
+cp -f dairewahandi_zsh.conf $HOME
+echo "source $HOME/dairewahandi_zsh.conf" | tee -a ~/.zshrc
