@@ -5,7 +5,8 @@ cp -r .config ~/
 chmod +x rofi-power-menu
 sudo cp rofi-power-menu /usr/bin/
 
-curl -fsSL https://bun.sh/install | bash
+# curl -fsSL https://bun.sh/install | bash
+exec /bin/zsh 
 
 cp dairewahandi_zsh.conf ~/
 echo "source dairewahandi_zsh.conf" | tee -a ~/.zshrc
