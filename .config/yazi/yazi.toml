@@ -1,0 +1,16 @@
+[manager]
+show_hidden = true
+show_symlink = true
+sort_by = "natural"
+sort_reverse = false
+sort_dir_first = true
+
+[preview]
+tab_size = 4
+max_width = 600
+max_height = 1000
+cache_dir = "~/.cache/yazi"
+
+[log]
+level = "info"
+

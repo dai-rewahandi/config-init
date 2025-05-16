@@ -1,4 +1,4 @@
-sudo pacman -S rofi zsh eza zoxide foot fzf fd waybar tree ttf-firacode-nerd hyprpaper noto-fonts noto-fonts-cjk noto-fonts-emoji unzip bat
+sudo pacman -S rofi zsh eza zoxide foot fzf fd waybar tree ttf-firacode-nerd hyprpaper noto-fonts noto-fonts-cjk noto-fonts-emoji unzip bat wtype yazi 7zip poppler chafa
 # yay -S hyprshot eog waypaper localsend-bin
 
 cp -r .config ~/
@@ -8,4 +8,7 @@ sudo cp rofi-power-menu /usr/bin/
 # curl -fsSL https://bun.sh/install | bash
 
 cp -f dairewahandi_zsh.conf $HOME
-echo "source $HOME/dairewahandi_zsh.conf" | tee -a ~/.zshrc
+#echo "source $HOME/dairewahandi_zsh.conf" | tee -a ~/.zshrc
+
+#sudo chmod a+wr /opt/spotify
+#sudo chmod a+wr /opt/spotify/Apps -R
